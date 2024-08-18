@@ -466,7 +466,7 @@ figcaption {
   border-radius: 10px;
   margin-bottom: 50px;
   overflow: hidden;
-  box-shadow: 12px 12px 18px 3px #0003;
+  box-shadow: 12px 12px 13px 2px #0003;
 }
 
 .blog-image {
@@ -492,11 +492,11 @@ figcaption {
 .post-content {
   color: #eee;
   background-color: #2f4247;
-  padding: 35px;
+  padding: 35px 35px 25px;
 }
 
 .post-summary {
-  color: #aaa;
+  color: #eee;
   font-size: 14px;
   line-height: 22px;
   display: inline;
@@ -530,6 +530,14 @@ figcaption {
   opacity: .8;
 }
 
+.body-copy {
+  text-align: left;
+}
+
+.body-copy p {
+  margin-bottom: 10px;
+}
+
 .body-copy img {
   border-radius: 3px;
 }
@@ -550,7 +558,7 @@ figcaption {
   -webkit-text-fill-color: inherit;
   background-image: url('../images/855f78cb-722d-4604-b2f6-26aca825c501.webp');
   background-position: 0 0;
-  background-size: 896px;
+  background-size: cover;
   background-clip: border-box;
   border-radius: 10px 10px 0 0;
   height: 300px;
@@ -612,15 +620,17 @@ figcaption {
 
 .sidebar-wrapper {
   background-color: #232929;
-  border: 1px solid #aaa0;
+  border: 1px #aaa0;
   border-color: #aaa0 #aaa #0000 #0000;
   width: 270px;
   height: 100%;
   padding: 50px;
   position: fixed;
+  box-shadow: 8px 2px 17px 11px #0003;
 }
 
 .blog-title {
+  color: #eee;
   font-size: 30px;
   line-height: 37px;
 }
@@ -661,17 +671,19 @@ figcaption {
 }
 
 .body {
-  background-color: #8b9988;
+  background-color: #333;
 }
 
-.div-block {
+.modeswitch {
   border: 2px solid #eee;
   border-radius: 20px;
   width: 45px;
   height: 25px;
+  position: fixed;
+  inset: auto auto 15px 15px;
 }
 
-.div-block-2 {
+.switch-inside {
   background-color: #42b242;
   border: 6px solid #eee;
   border-radius: 20px;
@@ -684,6 +696,10 @@ figcaption {
 
 .body-2 {
   background-color: #272727;
+}
+
+.heading {
+  margin-bottom: 23px;
 }
 
 @media screen and (max-width: 991px) {
@@ -776,6 +792,8 @@ figcaption {
   }
 
   .about-image {
+    background-position: 50% 0;
+    background-size: cover;
     height: 250px;
   }
 
@@ -808,6 +826,10 @@ figcaption {
   .navigation {
     margin-bottom: 15px;
   }
+
+  .modeswitch {
+    position: fixed;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -823,6 +845,10 @@ figcaption {
     height: 190px;
   }
 
+  .about-image {
+    height: 150px;
+  }
+
   .content-wrapper, .sidebar-wrapper {
     padding: 20px;
   }
@@ -830,6 +856,11 @@ figcaption {
   .blog-title {
     font-size: 26px;
     line-height: 32px;
+  }
+
+  .modeswitch {
+    position: fixed;
+    inset: auto auto 15px 15px;
   }
 }
 
