@@ -19,6 +19,7 @@
 
 .switch {
   position: fixed;
+  z-index: +1;
   bottom: 6px;
   left: 15px;
   display: inline-block;
@@ -809,13 +810,7 @@ figcaption {
 }
 
 @media screen and (max-width: 991px) {
-  .nav-link.w--current, .site-name.w--current {
-    color: #eee;
-  }
 
-  .site-description {
-    color: #c4c4c4;
-  }
 
   .post-wrapper {
     margin-bottom: 35px;
@@ -826,17 +821,8 @@ figcaption {
     height: 190px;
   }
 
-  .post-content {
-    color: #eee;
-    background-color: #3f4e4f;
-  }
-
   .about-image {
     height: 250px;
-  }
-
-  .social-link-group {
-    filter: invert();
   }
 
   .content-wrapper {
@@ -845,17 +831,12 @@ figcaption {
   }
 
   .sidebar-wrapper {
-    background-color: #2c3333;
     width: 230px;
     padding: 30px;
   }
 
   .white-bg-heading {
     margin-bottom: 20px;
-  }
-
-  .body-2 {
-    background-color: #1e201e;
   }
 
   .post-wrapper-copy {
@@ -927,7 +908,6 @@ figcaption {
 
   .sidebar-wrapper {
     text-align: center;
-    border-bottom: 1px solid #e2e2e2;
     border-right-style: none;
     width: 100%;
     position: static;
@@ -940,10 +920,6 @@ figcaption {
 
   .navigation {
     margin-bottom: 15px;
-  }
-
-  .modeswitch {
-    position: fixed;
   }
 
   .blog-title-copy {
@@ -980,11 +956,6 @@ figcaption {
   .blog-title {
     font-size: 26px;
     line-height: 32px;
-  }
-
-  .modeswitch {
-    position: fixed;
-    inset: auto auto 15px 15px;
   }
 
   .blog-title-copy {
