@@ -7,6 +7,36 @@
   --colors--background: #aaa;
 }
 
+.construction-label {
+  position: fixed;
+  top: 20px;
+  left: auto;
+  right: 20px;
+  transform: none;
+  background-color: #ffcc00;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 30%;
+  display: flex; /* New */
+  align-items: center; /* New */
+}
+
+.close-btn {
+  margin-left: auto; /* Updated to push the close button to the right end */
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.construction-label span {
+  font-size: 14px;
+}
+
+
 .social-link-group img, /* For icons that are images */
 .social-link-group svg { /* For icons that are SVGs */
     transition: filter 0.3s ease;
@@ -933,6 +963,10 @@ figcaption {
 }
 
 @media screen and (max-width: 479px) {
+  .construction-label {
+    width: 40%;
+  }
+
   .site-description {
     margin-top: 13px;
   }

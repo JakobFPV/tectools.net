@@ -35,3 +35,9 @@ const toggleSwitch = document.getElementById('dark-mode-toggle');
       }
     }
   });
+
+
+function closeLabel() {
+  document.getElementById("constructionLabel").style.display = "none";
+}
+  
