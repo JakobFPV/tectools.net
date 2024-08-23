@@ -25,8 +25,11 @@
 }
 
 .close-btn {
-  margin-left: 10px; /* Updated to push the close button to the right end */
+  position:absolute;
+  right:15px;
+  margin-left: 10px; 
   cursor: pointer;
+  left:auto;
   font-weight: bold;
   color: #333;
 }
