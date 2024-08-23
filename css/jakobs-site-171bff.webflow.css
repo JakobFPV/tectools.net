@@ -25,7 +25,7 @@
 }
 
 .close-btn {
-  margin-left: auto; /* Updated to push the close button to the right end */
+  margin-left: 10px; /* Updated to push the close button to the right end */
   cursor: pointer;
   font-weight: bold;
   color: #333;
@@ -883,8 +883,8 @@ figcaption {
 
 
   .navigation{
-    margin-bottom: 11px;
-    margin-top: 11px;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
 
   .switch {
@@ -894,7 +894,7 @@ figcaption {
   }
 
   .construction-label {
-    width: 50%;
+    width: 60%;
     top:auto;
     bottom:20px;
     right:15px;
