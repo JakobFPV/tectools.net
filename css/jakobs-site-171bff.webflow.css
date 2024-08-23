@@ -880,9 +880,33 @@ figcaption {
 }
 
 @media screen and (max-width: 767px) {
-  .social-icon-link {
-    margin-left: 8px;
-    margin-right: 8px;
+
+
+  .navigation{
+    margin-bottom: 7px;
+  }
+
+  .switch {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+  }
+
+  .construction-label {
+    width: 50%;
+    top:auto;
+    bottom:20px;
+    right:15px;
+  }
+
+  .site-name {
+    font-size: 25px;
+  }
+
+  .social-icon-link{  
+    width: 15px;
+    margin-left: 6px;
+    margin-right: 6px;
   }
 
   .nav-link {
@@ -900,8 +924,9 @@ figcaption {
   }
 
   .site-description {
-    margin-top: 13px;
-    margin-bottom: 15px;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     padding-top: 0;
   }
 
@@ -948,10 +973,6 @@ figcaption {
     line-height: 36px;
   }
 
-  .navigation {
-    margin-bottom: 15px;
-  }
-
   .blog-title-copy {
     font-size: 27px;
     line-height: 36px;
@@ -963,13 +984,7 @@ figcaption {
 }
 
 @media screen and (max-width: 479px) {
-  .construction-label {
-    width: 40%;
-  }
 
-  .site-description {
-    margin-top: 13px;
-  }
 
   .post-wrapper {
     margin-bottom: 20px;
